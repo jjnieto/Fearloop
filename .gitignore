@@ -4,5 +4,10 @@
 /Assets/*
 !/Assets/000Game
 !/Assets/000Game/*
+
+!/Assets/Autohand
+/Assets/Autohand/*
+!/Assets/000Game/Scripts
+!/Assets/000Game/Scripts/*
 !/.gitignore
 !/README.md

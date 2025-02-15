@@ -527,6 +527,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &131789497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -745,6 +748,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &135437485
@@ -1176,6 +1182,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &229679169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1383,127 +1392,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 251886090}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &332557937
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LaserStandEmission
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _EMISSION
-  m_InvalidKeywords: []
-  m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 0.5, y: 0.5}
-        m_Offset: {x: 0, y: 0.5}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 2, y: 2}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: e2164be1f5de4c34fbd44810ac4862d4, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 0.5, y: 0.5}
-        m_Offset: {x: 0, y: 0.5}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
-    - _GlossMapScale: 1
-    - _Glossiness: 0.9
-    - _GlossyReflections: 1
-    - _Metallic: 0.5
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.9
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _Surface: 0
-    - _UVSec: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
-    m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 2, g: 2, b: 2, a: 1}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-  m_BuildTextureStacks: []
 --- !u!54 &398643721
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1701,6 +1589,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &411499878
@@ -12984,6 +12875,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1062350195
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18141,6 +18035,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1083998776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18911,6 +18808,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &1268304175
@@ -19928,6 +19828,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1466735135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20519,6 +20422,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &1631952126
@@ -30668,6 +30574,127 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799869283}
   m_Mesh: {fileID: 4300000, guid: 35fb330e720dbcf448f786358d5e5e92, type: 2}
+--- !u!21 &1801404539
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LaserStandEmission
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0.5}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: e2164be1f5de4c34fbd44810ac4862d4, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0.5}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.9
+    - _GlossyReflections: 1
+    - _Metallic: 0.5
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.9
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _UVSec: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 2, g: 2, b: 2, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1822020051
 GameObject:
   m_ObjectHideFlags: 0
@@ -32009,6 +32036,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &2035543117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32229,6 +32259,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &2065293924
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32447,6 +32480,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!65 &2068704734
@@ -43491,6 +43527,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!223 &655641927908414287
 Canvas:
   m_ObjectHideFlags: 0
@@ -48754,6 +48793,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!23 &1043705864719212452
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52965,6 +53007,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3397776269734624968
 GameObject:
   m_ObjectHideFlags: 0
@@ -53323,9 +53368,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
         type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5770625532217687676}
+      objectReference: {fileID: 564517411}
     - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
         type: 3}
       propertyPath: OnKeepPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -53333,7 +53388,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
         type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
       propertyPath: OnKeepPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 564517411}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreasePosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 564517411}
     - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
@@ -53348,7 +53418,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
         type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncreasePosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveAlongPath, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
       propertyPath: OnKeepPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveAlongPath, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MoveAlongPath, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
@@ -53358,7 +53453,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
         type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
       propertyPath: OnKeepPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593252349555598229, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
+        type: 3}
+      propertyPath: ButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8279322617559795224, guid: 6f07186e9d77b9b4a9d764e2c7d37078,
@@ -53985,6 +54095,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!23 &3812823123122332436
@@ -64903,6 +65016,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &4637586920304350765
 Transform:
   m_ObjectHideFlags: 0
@@ -64950,6 +65066,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &4671546691076965218
@@ -67183,18 +67302,6 @@ Transform:
   - {fileID: 5484609489236580856}
   m_Father: {fileID: 3467827066395690198}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5770625532217687676 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2056510850875938056, guid: 346402b8c6dfe4142af99398695bff31,
-    type: 3}
-  m_PrefabInstance: {fileID: 5521220599312034676}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00b2e77d089d619438738a2307ea4e81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &5783100342216632677
 AudioSource:
   m_ObjectHideFlags: 0
@@ -69969,6 +70076,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &6912866034374305188
 Transform:
   m_ObjectHideFlags: 0
@@ -70320,6 +70430,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!23 &7050033239038667197
@@ -75791,6 +75904,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7389748840976058118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80856,6 +80972,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7643879520576694904
 GameObject:
   m_ObjectHideFlags: 0
@@ -81994,6 +82113,9 @@ MonoBehaviour:
   OnUnpressed:
     m_PersistentCalls:
       m_Calls: []
+  ButtonIsPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &8251250453629707627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 427938, guid: e5ab3db318a4acc46a3cb828d63f0c4b,
@@ -83002,7 +83124,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 332557937}
+  - {fileID: 1801404539}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83056,6 +83178,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   OnUnpressed:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
 --- !u!4 &8880633470777268653
