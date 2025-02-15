@@ -1,0 +1,10 @@
+# Ignorar todo
+/*
+
+# Permitir el directorio específico (por ejemplo, "Assets")
+!Assets/000Game/
+
+# Asegurar que su contenido también se rastree
+!Assets/000Game/**
+
+!/.gitignore
