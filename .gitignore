@@ -1,9 +1,8 @@
 # Ignorar todo
 /*
-
 !/Assets
 /Assets/*
-!/Assets/000Game/**
-
+!/Assets/000Game
+!/Assets/000Game/*
 !/.gitignore
-!/.README.md
+!/README.md
